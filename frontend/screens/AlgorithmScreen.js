@@ -11,7 +11,7 @@ import {
 } from "react-native-paper";
 import axios from "axios";
 
-const API_BASE_URL = "http://localhost:5000/api";
+const API_BASE_URL = "https://mapppp.onrender.com/api";
 
 export default function AlgorithmScreen({ navigation, route }) {
   const [algorithms, setAlgorithms] = useState([]);
